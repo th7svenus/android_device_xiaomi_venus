@@ -1,5 +1,4 @@
 # These proprietary files are extracted from venus OS1.0.10.0.UKBMIXM, note the pinned blobs
-
 # ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb
@@ -16,14 +15,12 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.10.pmd
-
 # ACDB libraries
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
 vendor/lib/libadiertac.so
 vendor/lib/libaudcal.so
-
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
@@ -67,7 +64,6 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
-
 # Audio configs
 vendor/etc/audio/sku_lahaina/audio_platform_info.xml
 vendor/etc/audio/sku_lahaina/audio_platform_info_intcodec.xml
@@ -76,7 +72,6 @@ vendor/etc/audio/sku_lahaina/mixer_paths_overlay_dynamic.xml
 vendor/etc/audio/sku_lahaina/mixer_paths_overlay_static.xml
 vendor/etc/audio/sku_lahaina/sound_trigger_mixer_paths.xml
 vendor/etc/audio/sku_lahaina/sound_trigger_platform_info.xml
-
 # Audio firmware
 vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
 vendor/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin
@@ -96,7 +91,6 @@ vendor/firmware/spk1_playback_delta.txt
 vendor/firmware/spk1_voice_delta.txt
 vendor/firmware/spk2_playback_delta.txt
 vendor/firmware/spk2_voice_delta.txt
-
 # Audio HAL
 vendor/lib/hw/audio.primary.lahaina.so
 vendor/lib/liba2dpoffload.so
@@ -118,7 +112,6 @@ vendor/lib/libresampler.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libspkrprot.so
 vendor/lib/libssrec.so
-
 # Camera
 vendor/lib/libbitmlengine.so
 vendor/lib/libcamera_nn_stub.so
@@ -267,7 +260,6 @@ vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
-
 # Camera-arcsoft
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_bodyslim.so
@@ -282,7 +274,6 @@ vendor/lib64/libarcsoft_portrait_lighting_c.so
 vendor/lib64/libarcsoft_super_night_raw.so;DISABLE_CHECKELF
 vendor/lib64/libarcsoft_triple_sat.so
 vendor/lib64/libarcsoft_triple_zoomtranslator.so
-
 # Camera (camerax)
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib/libcamxfacialfeatures.so
@@ -306,7 +297,6 @@ vendor/lib64/libcamxstatscore.so
 vendor/lib64/libcamxswispiqmodule.so
 vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
-
 # Camera components
 vendor/lib64/camera/components/com.mi.node.AIIE.so
 vendor/lib64/camera/components/com.mi.node.aiasd.so
@@ -379,7 +369,6 @@ vendor/lib64/camera/components/com.xiaomi.node.misegment.so
 vendor/lib64/camera/components/com.xiaomi.node.smooth_transition.so
 vendor/lib64/camera/components/com.xiaomi.node.tracker.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
-
 # Camera configs
 vendor/etc/camera/CFR_para_MACRO_V01.bin
 vendor/etc/camera/CFR_para_MACRO_V01_SN.bin
@@ -436,12 +425,10 @@ vendor/etc/camera/xiaomi/superhdsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartydualbokehyuvsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartyjpegsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartysnapshot.json
-
 # Camera-firmware
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/venus_bu63169_ois.coeff
 vendor/firmware/venus_bu63169_ois.prog
-
 # Camera plugins
 vendor/lib64/camera/plugins/com.qcom.plugin.gpu.so
 vendor/lib64/camera/plugins/com.qcom.plugin.jpegencode.so
@@ -472,7 +459,6 @@ vendor/lib64/libmiai_deblur.so
 vendor/lib64/librelight_only.so
 vendor/lib64/libsdk_sr.so
 vendor/lib64/libsupermoon.so
-
 # Camera-sensors
 vendor/lib/libjpege.so
 vendor/lib/libmctfengine_stub.so
@@ -488,10 +474,8 @@ vendor/lib64/libmmcamera_faceproc.so;DISABLE_CHECKELF
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
-
 # Charger (Mi Turbo Charge)
 vendor/bin/batterysecret
-
 # Computer Vision firmware
 vendor/firmware/evass-lt.b00
 vendor/firmware/evass-lt.b01
@@ -537,25 +521,21 @@ vendor/firmware/evass.b18
 vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
-
 # Display calibration
 vendor/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/mdss_dsi_k2_38_08_0a_dsc_cmd_mi.xml
 vendor/etc/mdss_dsi_k2_38_08_0a_mp_dsc_cmd_mi.xml
 vendor/etc/mdss_dsi_k2b_38_08_0a_dsc_cmd_mi.xml
 vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
-
 # Fingerprint
 vendor/etc/vintf/manifest/fod.xml
 vendor/lib64/com.fingerprints.extension@3.0.so
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.lahaina.so;FIX_SONAME
 vendor/lib64/libgf_hal.so
-
 # Fingerprint dtool
 vendor/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service
 vendor/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc
 vendor/lib64/vendor.xiaomi.hardware.dtool@1.0.so
-
 # Graphics firmware
 vendor/firmware/a660_gmu.bin
 vendor/firmware/a660_sqe.fw
@@ -564,7 +544,6 @@ vendor/firmware/a660_zap.b01
 vendor/firmware/a660_zap.b02
 vendor/firmware/a660_zap.elf
 vendor/firmware/a660_zap.mdt
-
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
@@ -574,7 +553,6 @@ vendor/firmware/ipa_fws.b03
 vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
-
 # Media (VPU firmware)
 vendor/firmware/vpu20_2v.b00
 vendor/firmware/vpu20_2v.b01
@@ -624,12 +602,10 @@ vendor/firmware/vpu20_4v.lst
 vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v.mdt
 vendor/firmware/vpu20_4v_unsigned.mbn
-
 # NFC configs
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
 vendor/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
-
 # Sensors
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
@@ -638,16 +614,9 @@ vendor/etc/elliptic_sensor.xml
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
-vendor/lib64/libnanopb.so
 vendor/lib64/libnotifyaudiohal.so;FIX_SONAME
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
-vendor/lib64/libsns_api.so
-vendor/lib64/libsns_fastRPC_util.so
-vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/libsns_registry_skel.so
-vendor/lib64/libsnsapi.so
-vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/libssccalapi.so
@@ -656,7 +625,6 @@ vendor/lib64/sensors.elliptic@2.0.so
 vendor/lib64/sensors.mius.proximity.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.detect.so
-
 # Sensors (citsensor)
 vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
 vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc
@@ -664,7 +632,6 @@ vendor/etc/vintf/manifest/vendor.xiaomi.hardware.citsensorservice@1.1-service.xm
 vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
 vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
-
 # Sensors configs
 vendor/etc/sensor_diag.cfg
 vendor/etc/sensors/config/ak991x_dri_0.json
@@ -730,7 +697,6 @@ vendor/etc/sensors/config/tmd3719.json
 vendor/etc/sensors/config/vl53l1_tof_0.json
 vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sns_reg_config
-
 # Thermal config
 vendor/etc/thermal-4k.conf
 vendor/etc/thermal-8k.conf
@@ -752,12 +718,10 @@ vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermald-devices.conf
-
 # Touchscreen firmware
 vendor/firmware/st_fts_k2.ftb
 vendor/firmware/st_fts_k2.ftb:vendor_ramdisk/lib/firmware/st_fts_k2.ftb
 vendor/firmware/st_fts_k2_htp.ftb
 vendor/firmware/st_fts_k2_htp.ftb:vendor_ramdisk/lib/firmware/st_fts_k2_htp.ftb
-
 # Vibrator firmware
 vendor/firmware/aw8697_haptic.bin
